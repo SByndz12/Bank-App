@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>DESTINATIONS</title>
+		<link href='myaccount.css' rel='stylesheet' type='text/css'>
+		<style>
+			#destinations{
+				text-align: center;
+			}
+		</style>
+	</head>
+    <body>
+		<div id="mainbox" onclick="openFunction()">&#9776;</div>
+          <div id="menu" class="sidemenu">
+			<a href="homepage.html">HOME</a>
+			<a href="transactions.html">TRANSACTIONS</a>
+			<!-- <li><a href="Destinations.html">DESTINATIONS</a></li>
+			<li><a href="2013 Uttarakhand floods.html">2013 UTTARAKHAND FLOODS</a></li>
+			<li><a href="kumbh mela.html">HARIDWAR KUMBH MELA</a></li>
+			<li><a href="Char Dham.html">CHAR DHAM</a></li>
+			<li><a href="Rishikesh-Yoga Capital of the World.html">RISHIKESH</a></li> -->
+		  <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+		</div>
+		<script type="text/javascript">
+			function openFunction(){
+			 document.getElementById("menu").style.width="300px";
+			 document.getElementById("mainbox").style.marginLeft="300px";
+			 document.getElementById("mainbox").innerHTML="";
+			}
+		   function closeFunction(){
+			document.getElementById("menu").style.width="0px";
+			document.getElementById("mainbox").style.marginLeft="0px";
+			document.getElementById("mainbox").innerHTML="&#9776;";
+		   }
+		</script>
+
+    <h1 id = "destinations">ACCOUNT DETAILS</h1>
+    <div class="content">
+				<div class="grid">
+					<figure class="effect-lily">
+						<img src="checking.jpeg" alt="img12" width="400" height="400">
+						<figcaption>
+							<div>
+								<h2>CHECKING</span></h2>
+								<h3 id = "checking"><br>$303.58</h3>
+							</div>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-lily">
+						<img src="savings.jpeg" alt="img1" width="400" height="400"/>
+						<figcaption>
+							<div>
+								<h2>SAVINGS</span></h2>
+								<h3 id = "savings"><br>$98.45</h3>
+							</div>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="grid">
+					<figure class="effect-lily">
+						<img src="perk.jpeg" alt="img06" width="500" height="300" />
+						<figcaption>
+							<h2>ROAD - TO - PERK</span></h2>
+							<h3 id = "perks"><br>$0.05 to go!</h3>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-lily">
+						<img src="peta.jpeg" alt="img03" width="500" height="300"/>
+						<figcaption>
+							<h2>DONATED: PETS</span></h2>
+							<h3 id = "pets"><br>$20 donated!</h3>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="grid">
+					<figure class="effect-lily">
+						<img src="healthcare.png" alt="img17" width="500" height="400"/>
+						<figcaption>
+							<h2>DONATED: HEALTHCARE</span></h2>
+							<h3 id = "healthcare"><br>$13.57 donated!</h3>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-lily">
+						<img src="homeless.jpeg" alt="img18" width="500" height="400"/>
+						<figcaption>
+							<h2>DONATED: HOMELESS</span></h2>
+							<h3 id = "homeless"><br>$4.03 donated!</h3>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="grid">
+					<figure class="effect-lily">
+						<img src="food.jpeg" alt="img19" width="500" height="500" />
+						<figcaption>
+							<h2>DONATED: FOOD</span></h2>
+							<h3 id = "food"><br>$5.40 donated!</h3>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-lily">
+						<img src="orphanage.jpeg" alt="img12" width="500" height="500"/>
+						<figcaption>
+							<h2>DONATED: ORPHANAGE</span></h2>
+							<h3 id = "orphanage"><br>$6.95 donated!</h3>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				
+			</div>
+
+            
+        </body>
+</html>

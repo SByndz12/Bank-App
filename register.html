@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Login Form Example</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'><link rel="stylesheet" href="register.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-form">
+  <form id="login-form">
+    <h1>Register</h1>
+    <div class="content">
+        <div class="input-field">
+            <input type="text" placeholder="First Name" autocomplete="nope" id = "fname" required>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Last Name" autocomplete="nope" id = "lname" required>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Phone Number" autocomplete="nope" id = "pnumber" required>
+          </div>
+      <div class="input-field">
+        <input type="email" placeholder="Email" autocomplete="nope" id = "email" required>
+      </div>
+      <div class="input-field">
+        <input type="text" placeholder="User ID" autocomplete="nope" id = "userid" required>
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Password" autocomplete="new-password" id = "passwd" required>
+      </div>
+    </div>
+    <div class="action">
+      <button onclick = "register(this)">Register</button>
+  </div>
+  </form>
+</div>
+<!-- partial -->
+  <script  src="register.js"></script>
+</body>
+</html>
